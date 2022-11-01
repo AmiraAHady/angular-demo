@@ -4,16 +4,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { MovieslistComponent } from './movieslist/movieslist.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
+<<<<<<< HEAD
 import { DemoComponent } from './demo/demo.component';
 import { MovieratingComponent } from './movierating/movierating.component';
+=======
+import { TvlistComponent } from './tvlist/tvlist.component';
+>>>>>>> newfeature
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieslistComponent,
     MovieDetailsComponent,
+<<<<<<< HEAD
     DemoComponent,
     MovieratingComponent
+=======
+    TvlistComponent
+>>>>>>> newfeature
   ],
   imports: [
     BrowserModule
