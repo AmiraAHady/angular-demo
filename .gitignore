@@ -7,7 +7,7 @@ src/app/demo/
 /tmp
 /out-tsc
 /bazel-out
-
+src/app/demo/
 # Node
 /node_modules
 npm-debug.log
