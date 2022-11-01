@@ -16,5 +16,11 @@ export class AuthService {
     console.log('connect to node js api for signup');
     
   }
+
+
+  void logout(){
+    console.log('implement logout');
+    
+  }
   
 }
