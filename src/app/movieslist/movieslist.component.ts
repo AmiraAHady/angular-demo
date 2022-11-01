@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../auth.service';
 import { MoviesService } from '../movies.service';
 
 @Component({
@@ -15,7 +16,7 @@ export class MovieslistComponent implements OnInit {
  private _searchValue:string='' 
  moviesData:any[]=[]
  filteredMovies:any[]=this.moviesData; 
-  constructor(private movsService :MoviesService) { }
+  constructor(private movsService :MoviesService,private authserv:AuthService) { }
 
   ngOnInit(): void {
     console.log('retrive movies from api');
