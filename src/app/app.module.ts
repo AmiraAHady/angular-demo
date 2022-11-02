@@ -8,6 +8,7 @@ import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { DemoComponent } from './demo/demo.component';
 import { MovieratingComponent } from './movierating/movierating.component';
 import { Newfeature2Component } from './newfeature2/newfeature2.component';
+import { NewCompComponent } from './new-comp/new-comp.component';
 =======
 import { TvlistComponent } from './tvlist/tvlist.component';
 >>>>>>> newfeature
@@ -20,7 +21,8 @@ import { TvlistComponent } from './tvlist/tvlist.component';
 <<<<<<< HEAD
     DemoComponent,
     MovieratingComponent,
-    Newfeature2Component
+    Newfeature2Component,
+    NewCompComponent
 =======
     TvlistComponent
 >>>>>>> newfeature
