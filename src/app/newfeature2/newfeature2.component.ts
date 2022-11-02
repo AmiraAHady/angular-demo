@@ -9,9 +9,13 @@ export class Newfeature2Component implements OnInit {
 
   constructor() { }
 
+  log() {
+    console.log('sarah branch');
+
+  }
   ngOnInit(): void {
   }
 
-  
+
 
 }
