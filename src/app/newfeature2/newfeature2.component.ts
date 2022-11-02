@@ -11,7 +11,7 @@ export class Newfeature2Component implements OnInit {
 
   log() {
     console.log('sarah branch');
-
+    console.log('adding features');
   }
   ngOnInit(): void {
   }
