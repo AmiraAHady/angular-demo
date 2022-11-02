@@ -36,7 +36,13 @@ export class MovieslistComponent implements OnInit {
 
 
    performSearch(val:string){
-    this.movsService.getSearchMovies(val).subscribe({next:(data)=>{
+    this.movsService.getSearchMovies(val).subscribe({next:(data){
+      this.filteredMovies=data.results;
+    }})
+
+  }
+   applyFilter(val:string){
+    this.movsService.getMovieById(val).subscribe({next:(data){
       this.filteredMovies=data.results;
     }})
 
